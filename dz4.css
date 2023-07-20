@@ -327,29 +327,142 @@ border-radius: 10px;
         left: 880px;
     }
                            /* Отзывы */
-.fedd{
+ div.review{
+ position: absolute;
+left: 92px;
+top: 1739px;
+}
+                        
+h2#review{
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 140%;
 position: absolute;
-width: 1736px;
-height: 585px;
-top: 920px;
-left: 2px;
+ width: 155px;
+left: 791px;
 }
-h2#name-fedd{
+                        
+h2#review:before{
+    content: url(/img/6.png);
     position: absolute;
-    width: 300px;
-    height: 59px;
-    top: 739px;
-    left: 810px;
-    border-radius: 0px 50px 0px 50px;
+    right: 199px;
 }
-h2#name-fedd:before{
-    content: url(.//img/6.png);
+h2#review::after{
+    content: url(/img/7.png);
     position: absolute;
-    right: 272px;
+    left: 199px;
+    top: 0px;
+  
 }
 
-h2#name-fedd:after{
-    content: url(.//img/7.png);
+
+
+.rev-slider{
     position: absolute;
-    left: 272px;
+    top: 150px;
+    left: 92px;
 }
+
+.slider{
+    margin-top: 192px;
+
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}                       
+                        
+.slide{
+background: #018ABE;
+padding: 40px 45px;
+float: left;
+margin-left: 50px;
+width: 400px;
+height: auto;
+}                          
+                        
+.off{
+opacity: 0.2;
+}
+.slide:hover{
+ opacity: 1;
+}
+                        
+.control{
+margin-top: 750px;
+}
+                        
+.control ul{
+ display: flex;
+justify-content: center;
+}
+                        
+.control li{
+float: left;
+margin-left: 20px;
+}
+            /* Об RitmStyle */
+div.about{
+    position: absolute;
+    width: 1076px;
+    height: 1024px;
+    top: 2474px;
+    left: 422px;
+    
+    
+
+}
+h2#about{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: normal;
+    position: absolute;
+     width: 155px;
+    left: 191px;
+    }
+    h2#about:before{
+        content: url(./img/6.png);
+        position: absolute;
+        right: 199px;
+    }
+    
+    h2#about:after{
+        content: url(.//img/7.png);
+        position: absolute;
+        left: 230px;
+        top: 0px;
+    }
+    #txt1{
+        width: 466px;
+        height: 170px;
+        top: 2763px;
+        left: 600px;
+        
+        }
+    
+    .id1{
+        width: 526px;
+        height: 365px;
+        top: 2303px;
+        left: 972px;
+        border-radius: 10px;
+        float: right;
+    }
+    #txt2{
+        width: 466px;
+        height: 302px;
+        top: 3179px;
+        left: 1032px;
+        }
+    
+    .id2{
+        width: 526px;
+        height: 400px;
+        top: 3098px;
+        left: 422px;
+        border-radius: 10px;  
+        float: left;
+    }
